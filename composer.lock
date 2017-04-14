@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e77d20c487c57f3963c8bebc3b8bfa74",
-    "content-hash": "873c69cc0eb4f7e1095290309d417f3e",
+    "content-hash": "eab4d3cd724d894178bc571366b7477f",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -60,7 +59,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2015-11-30 00:47:43"
+            "time": "2015-11-30T00:47:43+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -102,7 +101,7 @@
                 "hashing",
                 "password"
             ],
-            "time": "2014-11-20 16:49:30"
+            "time": "2014-11-20T16:49:30+00:00"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -157,7 +156,7 @@
                 "random-numbers",
                 "random-strings"
             ],
-            "time": "2016-09-07 15:52:06"
+            "time": "2016-09-07T15:52:06+00:00"
         },
         {
             "name": "ircmaxell/security-lib",
@@ -203,7 +202,7 @@
             ],
             "description": "A Base Security Library",
             "homepage": "https://github.com/ircmaxell/SecurityLib",
-            "time": "2015-03-20 14:31:23"
+            "time": "2015-03-20T14:31:23+00:00"
         },
         {
             "name": "league/plates",
@@ -255,7 +254,7 @@
                 "templating",
                 "views"
             ],
-            "time": "2015-07-09 02:14:40"
+            "time": "2015-07-09T02:14:40+00:00"
         },
         {
             "name": "league/url",
@@ -310,7 +309,7 @@
                 "url"
             ],
             "abandoned": "league/uri",
-            "time": "2015-07-15 08:24:12"
+            "time": "2015-07-15T08:24:12+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -370,7 +369,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2016-06-06 09:09:37"
+            "time": "2016-06-06T09:09:37+00:00"
         },
         {
             "name": "true/punycode",
@@ -416,10 +415,59 @@
                 "idna",
                 "punycode"
             ],
-            "time": "2016-08-09 14:50:44"
+            "time": "2016-08-09T14:50:44+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": []
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2016-04-29T12:21:54+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": [],

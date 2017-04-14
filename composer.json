@@ -43,5 +43,8 @@
             "type": "vcs",
             "url": "https://github.com/AxessWeb/W"
         }
-    ]
+    ],
+    "require-dev": {
+        "fzaninotto/faker": "^1.6"
+    }
 }
